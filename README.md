@@ -48,15 +48,21 @@ IndustryGPT-Retail-Support-Bot/
 │   └── Capstone_Project_Report_IndustryGPT_documentation.docx  # Official project report and documentation
 └── README.md
 
+---
+
 ## ⚠️ Limitations
 * **Lack of Real-Time Backend Integration:** The fine-tuned model provides accurate guidance based on its training data, but it cannot connect to live retailer databases to check real-time order statuses, modify active customer accounts, or process live financial transactions without external API coupling or RAG systems.
 * **Compact Model Scale:** Built on a 1.1B parameter architecture, which balances efficiency on local T4 GPUs but offers shallower multi-step reasoning compared to larger 7B+ models.
 * **Stateless Execution:** Operates on a single instruction-response evaluation structure without advanced multi-turn conversation memory management.
 
+---
+
 ## 🚀 How to Run the Notebook
 1. Open the notebook `IndustryGPT_Retail_Ecommerce_Support_Bot.ipynb` inside Google Colab.
 2. Ensure your runtime is set to a T4 GPU (`Runtime > Change runtime type > T4 GPU`).
 3. Run all cells sequentially to execute data preprocessing, EDA charts, QLoRA fine-tuning, and inference testing.
+
+---
 
 ## 👤 Author
 * **Ali Hamza Habib**
