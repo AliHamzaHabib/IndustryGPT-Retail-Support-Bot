@@ -47,6 +47,7 @@ IndustryGPT-Retail-Support-Bot/
 ├── docs/
 │   └── Capstone_Project_Report_IndustryGPT_documentation.docx  # Official project report and documentation
 └── README.md
+```
 
 ---
 
